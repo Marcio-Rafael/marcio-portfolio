@@ -260,3 +260,5 @@ a:hover {
     gap:  1rem;
 }
 
+.btn-container button, #socials-container svg {
+        cursor: pointer; }

@@ -267,19 +267,30 @@ a:hover {
 
 .about-1 {
 text-align: center;
-padding-top: 80px;
+padding-top: 10px;
 background-color: #F5F5F5;
-height: 250px;
+height: 950px;
 }
 
 .section__text__p1_h1 {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 70px;
     padding-right: 70px;
     color: inherit;
     font: inherit;
-    
 }
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.card-1 {
+    padding-right: 700px;
+}
+
+
 
 
 

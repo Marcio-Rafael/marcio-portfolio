@@ -261,4 +261,28 @@ a:hover {
 }
 
 .btn-container button, #socials-container svg {
-        cursor: pointer; }
+        cursor: pointer; 
+}
+
+
+.about-1 {
+text-align: center;
+padding-top: 80px;
+background-color: #F5F5F5;
+height: 250px;
+}
+
+.section__text__p1_h1 {
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: inherit;
+    font: inherit;
+    
+}
+
+
+
+
+
+

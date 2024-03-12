@@ -269,7 +269,7 @@ a:hover {
 text-align: center;
 padding-top: 10px;
 background-color: #F5F5F5;
-height: 950px;
+height: 150px;
 }
 
 .section__text__p1_h1 {
@@ -356,3 +356,193 @@ mark {
 
 
 
+/*skills*/
+
+.titulo-skills {
+    text-align: center;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.titulo-front {
+    text-align: center;
+    color: black;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.blocos-front {
+    margin-bottom: 2rem;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    background-color: #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+}
+
+.skill-html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-html {
+    width: 100px;
+    height: auto;
+}
+
+.skill-html img {
+    margin-bottom: 15px;
+}
+
+.skill-css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-css {
+    width: 100px;
+    height: auto;
+}
+
+.skill-css img {
+    margin-bottom: 15px;
+}
+
+.skill-sass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-sass {
+    width: 100px;
+    height: auto;
+    
+}
+
+.skill-sass img {
+    margin-bottom: 40px;
+    
+}
+
+
+.skill-bootstrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-bootstrap {
+    width: 100px;
+    height: auto;
+}
+
+.skill-bootstrap img {
+    margin-bottom: 15px;
+}
+
+.skill-react {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-react {
+    width: 100px;
+    height: auto;
+}
+
+.skill-react img {
+    margin-bottom: 30px;
+}
+
+.skill-angular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-angular {
+    width: 100px;
+    height: auto;
+}
+
+.skill-angular img {
+    margin-bottom: 18px;
+}
+
+.skill-redux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo-redux {
+    width: 100px;
+    height: auto;
+}
+
+.skill-redux img {
+    margin-bottom: 28px;
+}

@@ -376,7 +376,7 @@ mark {
     
 }
 
-ul {
+.blocos-front{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -530,7 +530,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #white;
+    background-color: white;
     padding: 0.5rem 1rem;
     border-radius: 2px;
     margin: 0.5rem;
@@ -546,3 +546,119 @@ ul {
 .skill-redux img {
     margin-bottom: 28px;
 }
+
+.titulo-backend {
+    text-align: center;
+    color: black;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.blocos-backend {
+    margin-bottom: 2rem;
+    
+}
+
+.skill-mongo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skill-mongo {
+    width: 100px;
+    height: auto;
+}
+
+.skill-mongo img {
+max-width: 100px; 
+height: auto;
+margin-bottom: 28px;
+}
+
+.skill-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skill-node {
+    width: 100px;
+    height: auto;
+}
+
+.skill-node img {
+max-width: 100px; 
+height: auto;
+margin-bottom: 30px;
+margin-top: 40px;
+}
+
+
+.skill-python {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skill-python {
+    width: 100px;
+    height: auto;
+}
+
+.skill-python img {
+max-width: 100px; 
+height: auto;
+margin-bottom: 28px;
+}
+
+.skill-firebase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    margin: 0.5rem;
+    flex: 1 0 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skill-firebase {
+    width: 100px;
+    height: auto;
+}
+
+.skill-firebase img {
+max-width: 100px; 
+height: auto;
+margin-bottom: 45px;
+}
+
+.blocos-backend{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+

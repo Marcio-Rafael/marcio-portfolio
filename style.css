@@ -225,6 +225,7 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    
 }
 
 .btn {
@@ -235,25 +236,13 @@ a:hover {
     border-radius: 2rem;
 }
 
-.btn-color-1, .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
-}
-
 .btn-color-1:hover, .btn-color-2:hover {
-    background: rgb(53, 53, 53);
+    background: rgb(0, 0, 0);
     color: white;
 }
 
-.btn-color-1:hover {
-    background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
+.btn-color-2, .btn-color-1 {
     background: none;
-}
-
-.btn-color-2:hover {
-    border: rgb( 255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
@@ -261,9 +250,8 @@ a:hover {
 }
 
 .btn-container button, #socials-container svg {
-        cursor: pointer; 
+    cursor: pointer; 
 }
-
 
 .about-1 {
 text-align: center;
@@ -288,6 +276,27 @@ height: 150px;
     max-width: 800px; 
 }
 
+.socials-container{
+    width: 90px;
+    display: flex;
+    padding-left: 130px;
+    gap: 7px;
+    padding-top: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.socials-container svg{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.socials-container svg:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Cards*/
+
 .card-1 {
     border-radius: 20px;
     margin-right: 10px;
@@ -302,9 +311,6 @@ height: 150px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
 }
-
-
-
 
 
 :root {
@@ -358,6 +364,7 @@ mark {
 
 /*skills*/
 
+
 .titulo-skills {
     text-align: center;
     margin-top: 15px;
@@ -371,17 +378,24 @@ mark {
     margin-bottom: 3rem;
 }
 
-.blocos-front {
-    margin-bottom: 2rem;
-    
-}
-
 .blocos-front{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 60px;
 }
+
+.skill-complete {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+.skill-complete:hover {
+    transform: scale(1.2);
+}
+
 
 .skill {
     background-color: #ddd;
@@ -556,7 +570,6 @@ mark {
 
 .blocos-backend {
     margin-bottom: 2rem;
-    
 }
 
 .skill-mongo {
@@ -657,8 +670,160 @@ margin-bottom: 45px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
+    
 }
+
+
+/*Portfolio*/
+
+section.portfolio {
+    padding: 80px 4%;
+    background-color: rgba(102, 98, 98, 0.166);
+}
+
+section.portfolio .flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overylay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005a;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overylay:hover{
+    opacity: 1;
+}
+
+
+h2 { 
+    color: black;
+    text-align: center;
+    
+}
+
+span {
+    color: gray;
+}
+
+
+/*ESTILO DO FORMULARIO DE CONTATO */ 
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.185);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #030303;
+    font-size: 18px;
+
+}
+
+form textarea{
+    resize: none;
+    max-height: 500px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #03030326;
+    color: #030303;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px   #4000ff;
+    transform: scale(1.05);
+
+
+}
+
+/*ESTILO DO RODAPE */
+
+
+.interface-rodape {
+    background-color: grey;
+    height: 200px;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+.btn-social {
+    display: flex;
+    justify-content: center;
+    height: 40px ;
+    gap: 1rem;
+    padding: 40px;
+    margin-left: 30px;
+}
+
+.contato-rodape{
+    margin-left: 560px;
+}
+
+.frase-rodape, .frase1-rodape{
+ color: white;
+ 
+}
+
 
 
 

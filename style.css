@@ -815,15 +815,27 @@ footer .flex{
     margin-left: 30px;
 }
 
+.btn-social svg{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-social svg:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 .contato-rodape{
     margin-left: 560px;
 }
 
 .frase-rodape, .frase1-rodape{
  color: white;
- 
+ transition: color 0.3s ease;
 }
 
-
+.frase-rodape:hover, .frase1-rodape:hover {
+    color: inherit; 
+}
 
 
